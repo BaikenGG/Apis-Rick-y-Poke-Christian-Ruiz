@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <title>Consimir Api's</title>
+  </head>
+
+  <body>
+    <div class="contenedorHeader">
+      <div>
+        <a href="#"
+          ><img class="icoFlecha" src="./prev.png" alt="" id="btnPrev"
+        /></a>
+      </div>
+      <h1 class="txtTexto">Api Pokemon</h1>
+        <a href="index.html" class="btn btn-warning">Volver</a>
+      <div>
+        <a href="#"
+          ><img class="icoFlecha" src="./next.png" alt="" id="btnnext"
+        /></a>
+      </div>
+    </div>
+
+    <div class="contenedor">
+      <div class="divLista">
+        <div class="contendedorListado" id="contendedorListado"></div>
+      </div>
+      <div class="matacho">
+        <div class="contendedorTodo" id="contendedorTodo"></div>
+      </div>
+    </div>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./getApiPoke2.js"></script>
+  </body>
+</html>
